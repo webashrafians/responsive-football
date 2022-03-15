@@ -3,7 +3,7 @@
     .main-menu{
         display: none !important;
     }
-    ..banner-info h1{
+    .banner-info h1{
         font-size: 36px;
     }
     .highlights-details h2{
