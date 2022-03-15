@@ -1,0 +1,27 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap');
+
+
+/*=============================================
+=            Genaral Area style            =
+=============================================*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*.{
+    margin: 0;
+    padding: 0;
+}
+a{text-decoration: none;}
+ul{list-style: none;}
+
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+}
+/*=====  End of Genaral Area style  ======*/
+
