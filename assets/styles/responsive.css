@@ -1,0 +1,63 @@
+@media only screen and (max-width:768px) {
+    .container{width: 95%;}
+    .main-menu{
+        display: none !important;
+    }
+    ..banner-info h1{
+        font-size: 36px;
+    }
+    .highlights-details h2{
+        font-size: 36px;
+    }
+    nav.header-banner{
+        grid-template-columns: 1fr;
+    }
+    .banner-info{
+        text-align: center;
+    }
+    .football-players{
+        grid-template-columns: 1fr;
+    }
+    .highlights-area{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .highlights-details{
+        text-align: center;
+    }
+    .football-logo img{
+        width: 90%;
+    }
+}
+
+
+/*=============================================
+=            tablate            =
+=============================================*/
+@media only screen and (min-width:768px) and (max-width:992px)  {
+    .container{width: 95%;}
+    .main-menu{
+        justify-content: center !important;    
+    }
+    .user{display: none;}
+    .header-banner{
+        grid-template-columns: 1fr;
+    }
+    .banner-info{
+        text-align: center;
+    }
+    .football-players{
+        grid-template-columns: 1fr 1fr;
+    }
+    .highlights-area{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .highlights-details{
+        text-align: center;
+    }
+}
+
+
+/*=====  End of tablate  ======*/
+
