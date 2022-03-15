@@ -5,23 +5,162 @@
 /*=============================================
 =            Genaral Area style            =
 =============================================*/
-body{
-    font-family: 'Poppins', sans-serif;
-}
 *.{
     margin: 0;
     padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
 }
 a{text-decoration: none;}
 ul{list-style: none;}
 
 
-.container{
-    width: 1440px;
-    margin: 0 auto;
-}
 img{
     width: 100%;
 }
+.watch-btn{
+    display: inline-block;
+    background-color: #E02C6D;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 18px;
+    margin: 30px 0;
+}
+.watch-btn i{
+    margin-left: 10px;
+}
 /*=====  End of Genaral Area style  ======*/
+
+
+/*=============================================
+=            header area            =
+=============================================*/
+nav.main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.main-menu ul li {
+    display: inline-block;
+}
+
+.main-menu ul li a {
+    padding: 10px 15px 10px 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+header.header-area {
+    background-color: blue;
+}
+
+.user a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.user a img {
+    width: 30px;
+    padding-right: 10px;
+}
+
+.main-menu ul {
+    padding: 0;
+}
+
+.header-banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* align-items: center; */
+    padding: 100px 0;
+    color: #fff;
+    align-items: center;
+}
+.banner-info h1{
+    font-size: 64px;
+    margin: 0;
+}
+.header-banner img {
+    width: 100%;
+}
+
+
+/*=====  End of header area  ======*/
+
+
+/*=============================================
+=            football players            =
+=============================================*/
+
+.football-player-area {
+    margin: 50px 0;
+}
+
+.football-players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}    
+
+
+/*=====  End of football players  ======*/
+
+
+
+/*=============================================
+=            highlight area            =
+=============================================*/
+.highlights-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}.highlights-area {}
+
+.highlights-details h2 {
+    font-size: 56px;
+    margin: 0;
+}
+
+.highlights-details {
+    padding: 20px 20px 20px 0;
+}
+
+.highlights-banner {
+    padding: 20px 0 20px 20px;
+    /* border-radius: 25px; */
+}
+
+.highlights-banner img {border-radius: 25px;}
+/*=====  End of highlight area  ======*/
+
+
+/*=============================================
+=            footer-area            =
+=============================================*/
+
+footer.footer-area {
+    text-align: center;
+}
+
+footer.footer-area {}
+
+.football-logo img {
+    width: 286px;
+}
+
+footer.footer-area {
+    padding: 100px;
+}
+
+
+/*=====  End of footer-area  ======*/
 
